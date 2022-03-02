@@ -26,8 +26,7 @@ const App = () => {
         <form onSubmit={Submit}>
           <div>
             <h1>
-              {" "}
-              Hello, {fName} {lName}{" "}
+              Hello, {fName} {lName}
             </h1>
             <input
               type="text"

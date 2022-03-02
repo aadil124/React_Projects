@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: rgb(250, 6, 6);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.header_div {
+  display: flex;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: red;
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+img {
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.CreatNote_div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 25vh;
+  align-items: center;
+}
+
+.form_div {
+  width: 25%;
+  height: 22vh;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px 3px gray;
+  position: relative;
+}
+
+form {
+  margin: 10px;
+}
+
+input {
+  border: none;
+  outline: none;
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+textarea {
+  border: none;
+  outline: none;
+  font-size: 12px;
+}
+
+.plus_sign {
+  position: absolute;
+  bottom: -15px;
+  right: 5px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: red;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  /* transition: all 0.5s; */
+  cursor: pointer;
+}
+.plus_sign:hover{
+background-color:red ;
+color: white;
+
+}
+
+
+.AddNote_div {
+  margin: 10px 2.5%;
+  float: left;
+  position: relative;
+}
+.Note {
+  width: 210px;
+  height: 22vh;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px 3px gray;
+  
+}
+#delete_btn{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  /* transition: all 0.5s; */
+  cursor: pointer;
+  color: red;
+  height: 35px;
+  width: 35px;
+  border-radius: 40%;
+
+}
+#delete_btn:hover{
+  background-color:red ;
+  color: white;
+}
